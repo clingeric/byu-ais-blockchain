@@ -95,7 +95,7 @@
         <tbody>
           {% for shipment in PastShipments %}
           <tr>
-            <td>{{shipment.deliveryService}} #{{ shipment.shipmentID|cut:"SHIPMENT_" }}</td>
+            <td>#{{ shipment.shipmentID|cut:"SHIPMENT_" }}</td>
             <td>{{ shipment.vendor }} </td>
             <td>{{ shipment.estDeliveryDate }}</td>
           </tr>
