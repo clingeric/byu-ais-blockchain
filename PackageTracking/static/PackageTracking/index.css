@@ -1,0 +1,30 @@
+body {
+    background-color: #f2f2f2;
+}
+
+#formContainer {
+    width:500px;
+    height:500px;
+    margin: 0 auto;
+    margin-top:150px;
+    /*border:4px solid #2ECCD3;*/
+    background-color: #2F3940;
+    padding:20px;
+    border-radius:5px;
+}
+
+#formContainer h1 {
+    font-family: Arial;
+    color: #f2f2f2;
+}
+
+label {
+    color: #f2f2f2;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+#btn-wrapper {
+    width:180px;
+    margin: 0 auto;
+}

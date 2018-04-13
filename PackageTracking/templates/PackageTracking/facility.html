@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Packages</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!-- popper.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> {% load static %}
+
+    <link rel="shortcut icon" type="image/png" href="{% static 'PackageTracking/delivery-box.png' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'PackageTracking/facility.css' %}" />
+</head>
+
+<body>
+    <div id="main">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+            <a class="navbar-brand" href="#">Track Packs</a>
+            <img src="../../static/PackageTracking/delivery-box.svg" height="40px" />
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hello, {{ username }}</a>
+                    </li>
+                </ul>
+                <a class="btn btn-danger" href="/PackageTracking/signOut/" role="button">Sign Out</a>
+            </div>
+        </nav>
+        <div id="main-container">
+            <table class="table table-striped table-dark contact-table table-curved table-hover">
+                <h3>Incoming Shipments</h3>
+                <thead>
+                    <tr>
+                        <th scope="col">Package ID</th>
+                        <th scope="col">Estimated Delivery Date</th>
+                        <th scope="col">Action</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for shipment in incomingShipments %}
+                    <tr>
+                        <td>Shipment {{ shipment.shipmentID|cut:"SHIPMENT_" }}</td>
+                        <td>{{ shipment.estDeliveryDate }}</td>
+                        <td>
+                            <a class="btn btn-success btn-fixed-width" href="/PackageTracking/ReceiveShipment/{{ shipment.shipmentID }}" role="button">Receive Shipment</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <br>
+            <br>
+
+            <table class="table table-striped table-dark contact-table table-curved table-hover">
+                <h3>Current Shipments in Facility</h3>
+                <thead>
+                    <tr>
+                        <th scope="col">Package ID</th>
+                        <th scope="col">Deliver</th>
+                        <th scope="col">Send Shipment To Facility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for shipment in inFacility %}
+                    <tr>
+                        <td>Shipment {{ shipment.shipmentID|cut:"SHIPMENT_" }}</td>
+                        <td>
+                            <a class="btn btn-primary btn-fixed-width" href="/PackageTracking/OutForDelivery/{{ shipment.shipmentID }}" role="button">Out For Delivery</a>
+                        </td>
+                        <td>
+                            <form class="form-inline" action="/PackageTracking/SendShipment/" method="post">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-primary btn-fixed-width">Send Shipment</button>&nbsp;&nbsp;&nbsp;
+                                <br>
+                                <div class="form-group">
+                                    <input class="form-control" id="shipmentID" type="hidden" name="shipmentID" value="{{ shipment.shipmentID }}">
+                                    <input class="form-control" id="toFacility" placeholder="Next Facility" type="text" name="toFacility" required>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <br>
+            <br>
+
+            <table class="table table-striped table-dark contact-table table-curved table-hover">
+                <h3>Current Shipments Out For Delivery</h3>
+                <thead>
+                    <tr>
+                        <th scope="col">Package ID</th>
+                        <th scope="col">Estimated Delivery Date</th>
+                        <th scope="col">Action</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for shipment in OutForShipments %}
+                    <tr>
+                        <td>Shipment {{ shipment.shipmentID|cut:"SHIPMENT_" }}</td>
+                        <td>{{ shipment.estDeliveryDate }}</td>
+                        <td>
+                            <a class="btn btn-warning btn-fixed-width" href="/PackageTracking/DeliverShipment/{{ shipment.shipmentID }}" role="button">Deliver Shipment</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <br>
+            <br>
+
+            <div class="panel panel-default">
+                <table class="table table-striped table-dark contact-table table-curved table-hover">
+                    <h3>Current Shipments in Transit</h3>
+                    <thead>
+                        <tr>
+                            <th scope="col">Package ID</th>
+                            <th scope="col">Estimated Delivery Date</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for shipment in inTransit %}
+                        <tr>
+                            <td>Shipment {{ shipment.shipmentID|cut:"SHIPMENT_" }}</td>
+                            <td>{{ shipment.estDeliveryDate }}</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-fixed-width" disabled>Shipped</button>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <br>
+                <br>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!--
+<div id="main">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Package Tracking</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Hello, UPS Representative</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div id="main-container">
+        <br><br>
+        <div id="accordion">
+            <h3 style="color:#f2f2f2;">Incoming Packages</h3><br>
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Shipment 2
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse hidden" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">2 days to Delivery</div>
+                    </div><br>
+                  <table class="table table-striped table-dark">
+                      <tr>
+                            <td>Current Facility</td>
+                            <td>Seattle UPS</td>
+                        </tr>
+                      <tr>
+                            <td>Estimated Incoming Date</td>
+                            <td>March 2nd, 2018</td>
+                        </tr>
+                    </table>
+              </div>
+            </div>
+          </div><br><h3 style="color:#f2f2f2;">In Facility</h3><br>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Shipment 3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                  <table class="table table-striped table-dark">
+                        <tr>
+                            <td>Next Facility</td>
+                            <td>Salt Lake City UPS</td>
+                        </tr>
+                      <tr>
+                            <td>Delivery Date</td>
+                            <td>March 4th, 2018</td>
+                        </tr>
+                    </table>
+              </div>
+            </div>
+          </div><br><h3 style="color:#f2f2f2;">Outgoing</h3><br>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Shipment 4
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">3 Days to Next Facility</div>
+                    </div><br>
+                  <table class="table table-striped table-dark">
+                        <tr>
+                            <td>Next Facility</td>
+                            <td>Chicago UPS</td>
+                        </tr>
+                      <tr>
+                            <td>Estimated Delivery Date</td>
+                            <td>March 7th, 2018</td>
+                        </tr>
+                    </table>
+              </div>
+            </div>
+          </div><br>
+        </div>
+        <img class="boxImg" src="{% static 'PackageTracking/box.svg' %}" alt="Picture of Shipping Box" />
+    </div>
+
+</div>
+-->

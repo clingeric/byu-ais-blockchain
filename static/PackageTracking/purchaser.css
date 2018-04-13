@@ -1,0 +1,71 @@
+#main-container {
+    width:90%;
+    min-height:94vh;
+    height:auto;
+    margin: 0 auto;
+    /*background-color: #d9d9d9;*/
+    background-color: rgba(0, 0, 0, 0.8);
+    padding:20px;
+}
+
+body {
+background-color:#000;
+}
+
+
+#main {
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(city2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+/*
+#main {
+    width:100%;
+    z-index: 1;
+    background-color: #C0C0C0;
+}
+*/
+
+.titleP {
+    color: #f2f2f2;
+}
+
+.boxImg {
+    height:200px;
+    margin: 0 auto;
+    width: 200px;
+    position: relative;
+    top:120px;
+    left:290px;
+    z-index: 1;
+}
+
+.table-curved {
+   border-collapse: separate;
+   border-radius: 6px;
+   border-left: 0px;
+   border-top: 0px;
+}
+.table-curved > thead:first-child > tr:first-child > th {
+
+}
+.table-curved td, .table-curved th {
+
+}
+.table-curved > :first-child > :first-child > :first-child {
+    border-top-left-radius: 6px;
+}
+.table-curved > :first-child > :first-child > :last-child {
+    border-top-right-radius: 6px;
+}
+.table-curved > :last-child > :last-child > :first-child {
+    border-bottom-left-radius: 6px;
+}
+.table-curved > :last-child > :last-child > :last-child {
+    border-bottom-right-radius: 6px;
+}

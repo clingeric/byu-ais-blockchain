@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34c498ff-3e9f-487c-a204-e3a863792daa" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="347" column="16" lean-forward="true" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facility.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/facility.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="27" column="84" lean-forward="false" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+              <folding>
+                <element signature="e#4252#4258#0" expanded="true" />
+                <element signature="e#4258#4264#0" expanded="true" />
+                <element signature="e#4264#4270#0" expanded="true" />
+                <marker date="1523413778000" expanded="false" signature="6671:11779" ph="..." />
+                <marker date="1523413778000" expanded="false" signature="7934:7948" ph="..." />
+                <marker date="1523413778000" expanded="false" signature="8705:8715" ph="..." />
+                <marker date="1523413778000" expanded="false" signature="9269:9283" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="purchaser.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/purchaser.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="84" />
+              <folding>
+                <marker date="1523412361000" expanded="false" signature="7976:7990" ph="..." />
+                <marker date="1523412361000" expanded="false" signature="8795:8805" ph="..." />
+                <marker date="1523412361000" expanded="false" signature="10582:10592" ph="..." />
+                <marker date="1523412361000" expanded="false" signature="12351:12361" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vendor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/vendor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+              <folding>
+                <element signature="e#3297#11763#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fedex</find>
+      <find>package</find>
+      <find>social</find>
+      <find>http://148.100.98.170:3000</find>
+      <find>form</find>
+      <find>return redire</find>
+      <find>s</find>
+      <find>[1]</find>
+      <find>status</find>
+      <find>facility to</find>
+      <find>out</find>
+      <find>787878</find>
+      <find>email</find>
+      <find>currentFacility</find>
+      <find>getshipmentinfo</find>
+      <find>getshipmentinf</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/HyperLedger/templates/HyperLedger/index.html" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/PackageTracking/userDetails.html" />
+        <option value="$PROJECT_DIR$/PackageTracking/static/PackageTracking/index.css" />
+        <option value="$PROJECT_DIR$/PackageTracking/static/PackageTracking/packageDetails.css" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/PackageTracking/packageDetails.html" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/vendor.html" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/PackageTracking/index.html" />
+        <option value="$PROJECT_DIR$/HyperLedger/urls.py" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/accounts/login.html" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/allauth/login.html" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/account/login.html" />
+        <option value="$PROJECT_DIR$/HyperLedger/settings.py" />
+        <option value="$PROJECT_DIR$/PackageTracking/urls.py" />
+        <option value="$PROJECT_DIR$/PackageTracking/static/PackageTracking/facility.css" />
+        <option value="$PROJECT_DIR$/PackageTracking/static/PackageTracking/vendor.css" />
+        <option value="$PROJECT_DIR$/PackageTracking/static/PackageTracking/purchaser.css" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/PackageTracking/purchaser.html" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/PackageTracking/facility.html" />
+        <option value="$PROJECT_DIR$/PackageTracking/templates/PackageTracking/vendor.html" />
+        <option value="$PROJECT_DIR$/PackageTracking/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2189" />
+    <option name="y" value="-33" />
+    <option name="width" value="1201" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HyperLedger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyperLedger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyperLedger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+              <item name="PackageTracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyperLedger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+              <item name="PackageTracking" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyperLedger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+              <item name="PackageTracking" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyperLedger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+              <item name="PackageTracking" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="PackageTracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyperLedger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+              <item name="PackageTracking" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyperLedger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+              <item name="PackageTracking" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyperLedger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyperLedger" type="462c0819:PsiDirectoryNode" />
+              <item name="PackageTracking" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="PackageTracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PackageTracking/static/PackageTracking" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PackageTracking/templates/PackageTracking" />
+      <recent name="$PROJECT_DIR$/PackageTracking" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34c498ff-3e9f-487c-a204-e3a863792daa" name="Default" comment="" />
+      <created>1519687743471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519687743471</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2189" y="-33" width="1201" height="823" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21398835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HyperLedger/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="6" lean-forward="true" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/facility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="96" lean-forward="true" selection-start-line="21" selection-start-column="96" selection-end-line="21" selection-end-column="96" />
+          <folding>
+            <element signature="e#4252#4258#0" expanded="true" />
+            <element signature="e#4258#4264#0" expanded="true" />
+            <element signature="e#4264#4270#0" expanded="true" />
+            <marker date="1523413778000" expanded="false" signature="6671:11779" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="7934:7948" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="8705:8715" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="9269:9283" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HyperLedger/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/purchaser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="78" selection-end-column="16" />
+          <folding>
+            <marker date="1523412361000" expanded="false" signature="7976:7990" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="8795:8805" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="10582:10592" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="12351:12361" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/static/PackageTracking/purchaser.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/facility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="93" selection-end-column="16" />
+          <folding>
+            <element signature="e#4252#4258#0" expanded="true" />
+            <element signature="e#4258#4264#0" expanded="true" />
+            <element signature="e#4264#4270#0" expanded="true" />
+            <marker date="1523413778000" expanded="false" signature="6671:11779" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="7934:7948" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="8705:8715" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="9269:9283" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/purchaser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="78" selection-end-column="16" />
+          <folding>
+            <marker date="1523412361000" expanded="false" signature="7976:7990" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="8795:8805" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="10582:10592" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="12351:12361" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/static/PackageTracking/purchaser.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/facility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding>
+            <element signature="e#4252#4258#0" expanded="true" />
+            <element signature="e#4258#4264#0" expanded="true" />
+            <element signature="e#4264#4270#0" expanded="true" />
+            <marker date="1523413778000" expanded="false" signature="6671:11779" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="7934:7948" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="8705:8715" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="9269:9283" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/purchaser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="170" column="8" lean-forward="true" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="105" />
+          <folding>
+            <marker date="1523412361000" expanded="false" signature="7976:7990" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="8795:8805" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="10582:10592" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="12351:12361" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="123" column="58" lean-forward="true" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="66" lean-forward="true" selection-start-line="98" selection-start-column="66" selection-end-line="98" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/facility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="124" column="29" lean-forward="false" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HyperLedger/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HyperLedger/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HyperLedger/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HyperLedger/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/static/PackageTracking/userDetails.css" />
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/userDetails.html" />
+    <entry file="file://$PROJECT_DIR$/PackageTracking/static/accounts/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/accounts/login.html" />
+    <entry file="file://$PROJECT_DIR$/HyperLedger/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/allauth/login.html" />
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HyperLedger/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/static/PackageTracking/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/static/PackageTracking/facility.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/static/PackageTracking/vendor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/static/PackageTracking/purchaser.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/static/PackageTracking/delivery-box.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/purchaser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="84" />
+          <folding>
+            <marker date="1523412361000" expanded="false" signature="7976:7990" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="8795:8805" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="10582:10592" ph="..." />
+            <marker date="1523412361000" expanded="false" signature="12351:12361" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/facility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="27" column="84" lean-forward="false" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+          <folding>
+            <element signature="e#4252#4258#0" expanded="true" />
+            <element signature="e#4258#4264#0" expanded="true" />
+            <element signature="e#4264#4270#0" expanded="true" />
+            <marker date="1523413778000" expanded="false" signature="6671:11779" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="7934:7948" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="8705:8715" ph="..." />
+            <marker date="1523413778000" expanded="false" signature="9269:9283" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/templates/PackageTracking/vendor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="e#3297#11763#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageTracking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="347" column="16" lean-forward="true" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

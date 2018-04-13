@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Track Packs</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script> {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'PackageTracking/index.css' %}" />
+</head>
+
+<body>
+    <div id="formContainer">
+        <div class="text-center">
+            <img style='width: 20%' src="{% static 'PackageTracking/delivery-box.png' %}" />
+        </div>
+        <div class="text-center">
+            <h1 class="formTitle">Track Packs</h1>
+        </div>
+        <hr>
+        <br>
+        <form action="/login_success/" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" placeholder="Enter email">
+                <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password">
+            </div>
+            <div id="btn-wrapper">
+                <button type="submit" class="btn btn-info btn-block">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
